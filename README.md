@@ -17,3 +17,6 @@ Recently, a new Panchen store opened near my home, so I decided to stop by and t
 </p>
 
 That little discovery sparked my curiosity and **set the stage for this project.**. So, I bought one of those cameras and **got to work.**
+
+
+## Getting to Know the Camera

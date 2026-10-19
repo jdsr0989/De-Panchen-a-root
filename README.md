@@ -16,4 +16,4 @@ Recently, a new Panchen store opened near my home, so I decided to stop by and t
   <img src="pics/2.jpg" alt="Boot" width="55%">
 </p>
 
-That little discovery sparked my curiosity and **set the stage for this project.**
+That little discovery sparked my curiosity and **set the stage for this project.**. So, I bought one of those cameras and **got to work.**

@@ -103,7 +103,7 @@ Y, por supuesto, como no podía ser de otra manera, recurrí a IA  como herramie
 A continuación, comparto los hallazgos más interesantes de esta investigación.
 
 
-# Analisis de la camara usando DeepSeek
+# Analisis de la camara usando DeepSeek 🐋
 
 ## Informe de auditoría y reversing — Cámara IP WOOX TR9410
 

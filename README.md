@@ -30,3 +30,30 @@ After opening the camera, I identified the UART ports and a chip that most likel
 <p align="center">
   <img src="pics/4.jpg" alt="Boot" width="55%">
 </p>
+
+My first idea was to solder wires to the UART ports and see what I could get out of the serial console. Unfortunately, U-Boot was password-protected, and none of the default passwords I tried worked.
+
+<p align="center">
+  <img src="pics/5.jpg" alt="Boot" width="55%">
+</p>
+
+```text
+U-Boot 2014.04 (May 10 2024 - 14:52:35)
+
+CPU: XM533W1
+DRAM:  64 MiB
+MMC:   arasan: 0
+In:    serial
+Out:   serial
+Err:   serial
+Net:   PHY id1 ffff id2 ffff Phy not found
+dwmac.10010000
+Press Ctrl+C to stop autoboot
+Password: 
+
+Password: ****
+Sorry, please try again!
+Password: ****
+Sorry, please try again!
+Password: *****
+```

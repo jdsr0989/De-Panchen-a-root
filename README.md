@@ -233,11 +233,6 @@ EXTENFUNC=WIFI,ATBM6132BS,AD,ONVIF,CRUISE,BLUETOOTH
 | Tuya P2P SDK | **v3.4.107** |
 | Protocolo LAN | **3.4** |
 
-> **[H]** La primera fase trabajó con otra identidad
-> (`devId eb73af32d7b1086ade0lkx`, `localKey 1;;Jd:Bx)[rWErv5`), de antes de
-> re-emparejar el dispositivo. Ambas claves contienen **puntuación**, detalle que
-> explica por qué un barrido de memoria con patrón alfanumérico nunca las
-> encontraría.
 
 ---
 

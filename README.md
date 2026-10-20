@@ -91,7 +91,7 @@ Mientras el proceso se ejecutaba, probé a ajustar cuidadosamente la presión so
 Después de tantos intentos, **¡voilà!** Finalmente, conseguí que `flashrom` detectara el chip y realizara la primera lectura.
 
 <p align="center">
-  <img src="pics/9.jpg" alt="volcado" width="55%">
+  <img src="pics/8.jpg" alt="volcado" width="55%">
 </p>
 
 ¡Por fin, una señal de progreso! Después de luchar con la conexión física y repetir el proceso una y otra vez, había conseguido dar el primer paso para extraer el firmware de la cámara.

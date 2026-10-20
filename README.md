@@ -195,10 +195,6 @@ programador eran **inaccesibles**.
 | WiFi | **ATBM6132BS** (SDIO) — presenta el interfaz como **`eth2`** |
 | MAC | `e0:22:a1:b6:35:a4` |
 
-> **[H]** Nota de corrección: una fase anterior atribuyó el WiFi a un `SSV6158M`.
-> El firmware es la fuente autoritativa: `WifiType=ATBM6132BS` en
-> `/usr/bin/ProductConfig`, y el driver cargado es `6132bs.ko` (941.844 B). El
-> `SSV6158M` solo aparece como rama opcional en `/usr/etc/loadpublic`.
 
 ### 2.2 Software
 
@@ -1553,27 +1549,6 @@ contenido del dispositivo a un servidor de terceros cada 60 s**.
 
 ## 12. Recomendaciones
 
-### 12.1 Para el fabricante (si estos hallazgos se reportaran)
-
-1. **Firmar el autorun de la SD** o eliminarlo en producto de consumo. Es el
-   hallazgo crítico: convierte una tarjeta de memoria en ejecución de código como
-   root. Como mínimo, exigir que la partición tenga un hash firmado.
-2. **Eliminar del binario de producción** la contraseña OEM, el servidor 9530, el
-   `udp_server` 9777 y el flasheo desde SD.
-3. **Activar autenticación en RTSP/ONVIF** y no dejar que un fichero de texto sin
-   protección decida si se exponen.
-4. **Guardar la clave de la KV fuera del mismo sistema de ficheros** que los datos
-   que protege.
-5. **Eliminar las credenciales por defecto** del servidor de medios.
-6. Quitar del binario los endpoints de región que no se usan.
-7. **No hardcodear la contraseña de U-Boot en el código.** No aporta seguridad
-   real (es recuperable del binario en minutos, §4.4) y crea una credencial
-   estática y compartida entre todas las unidades del modelo. Si se necesita
-   protección del bootloader, debe ser **por unidad** (clave derivada de un
-   secreto único del SoC) o eliminarse directamente. Y **documentar y justificar**
-   cualquier comando oculto del bootloader, como el patrón `jx…mf`.
-
-### 12.2 Para el propietario del dispositivo (uso doméstico)
 
 1. **Segmentar la red**: la cámara en una VLAN o red aislada, sin acceso a
    internet si no se necesita la app remota.

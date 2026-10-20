@@ -20,3 +20,13 @@ That little discovery sparked my curiosity and **set the stage for this project.
 
 
 ## Getting to Know the Camera
+
+After opening the camera, I identified the UART ports and a chip that most likely contains the firmware.
+
+<p align="center">
+  <img src="pics/3.jpg" alt="Boot" width="55%">
+</p>
+
+<p align="center">
+  <img src="pics/4.jpg" alt="Boot" width="55%">
+</p>

@@ -1567,9 +1567,8 @@ contenido del dispositivo a un servidor de terceros cada 60 s**.
 ### A. Cronología de la intervención
 
 ```
-2026-10-08  Primera fase: red, Tuya LAN, MQTT, P2P. Obtencion de la localKey
-            con Frida sobre Waydroid. Descubrimiento del autorun de la SD.
-2026-10-13/14  Campana de volcado con programador SPI: 8 lecturas, fusion por
+2026-10-08  Primera fase: red, Tuya LAN, MQTT, P2P.
+2026-10-13  Campana de volcado con programador SPI: 8 lecturas, fusion por
             mayoria. Huecos deterministas. Se documenta el estado.
 2026-10-15  Descubrimiento del bug del 9530 (telnetctrl) y del autorun de la SD.
             Preparacion de sd_run.sh. PRIMER ACCESO ROOT.

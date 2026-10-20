@@ -1,40 +1,37 @@
+# De Panchen al firmware completo
 
-# From Panchen to Full Firmware
+## La historia detrás del proyecto
 
-## The Story Behind the Project
-
-Panchen is just a random name among the many Chinese discount stores scattered across Mexico. These stores typically sell **all kinds of products at remarkably low prices**.
+Panchen es solo uno de los muchos nombres de las tiendas chinas de descuentos que se encuentran repartidas por todo México. Estas tiendas suelen vender **todo tipo de productos a precios sorprendentemente bajos**.
 
 <p align="center">
-  <img src="pics/1.jpg" alt="Boot" width="55%">
+  <img src="pics/1.jpg" alt="Tienda Panchen" width="55%">
 </p>
 
-Recently, a new Panchen store opened near my home, so I decided to stop by and take a look around. While browsing the electronics section, I came across one of those **cheap, questionable-quality IP cameras** — the kind of device that makes you wonder what's actually running under the hood.
-
+Recientemente, abrió una nueva tienda Panchen cerca de mi casa, así que decidí pasar a echar un vistazo. Mientras recorría la sección de electrónica, me encontré con una de esas **cámaras IP baratas y de calidad cuestionable**: el tipo de dispositivo que te hace preguntarte qué estará funcionando realmente en su interior.
 
 <p align="center">
-  <img src="pics/2.jpg" alt="Boot" width="55%">
+  <img src="pics/2.jpg" alt="Cámara IP" width="55%">
 </p>
 
-That little discovery sparked my curiosity and **set the stage for this project.**. So, I bought one of those cameras and **got to work.**
+Ese pequeño descubrimiento despertó mi curiosidad y **marcó el inicio de este proyecto**. Así que compré una de esas cámaras y **me puse manos a la obra**.
 
+## Conociendo la cámara
 
-## Getting to Know the Camera
-
-After opening the camera, I identified the UART ports and a chip that most likely contains the firmware.
+Después de abrir la cámara, identifiqué los puertos UART y un chip que, muy probablemente, contiene el firmware.
 
 <p align="center">
-  <img src="pics/3.jpg" alt="Boot" width="55%">
+  <img src="pics/3.jpg" alt="Puertos UART" width="55%">
 </p>
 
 <p align="center">
-  <img src="pics/4.jpg" alt="Boot" width="55%">
+  <img src="pics/4.jpg" alt="Chip de memoria" width="55%">
 </p>
 
-My first idea was to solder wires to the UART ports and see what I could get out of the serial console. Unfortunately, U-Boot was password-protected, and none of the default passwords I tried worked.
+Mi primera idea fue soldar cables a los puertos UART para ver qué podía obtener a través de la consola serie. Por desgracia, U-Boot estaba protegido por contraseña y ninguna de las contraseñas predeterminadas que probé funcionó.
 
 <p align="center">
-  <img src="pics/5.jpg" alt="Boot" width="55%">
+  <img src="pics/5.jpg" alt="Consola U-Boot" width="55%">
 </p>
 
 ```text

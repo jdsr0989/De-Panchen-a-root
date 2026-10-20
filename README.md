@@ -91,7 +91,7 @@ Mientras el proceso se ejecutaba, probé a ajustar cuidadosamente la presión so
 Después de tantos intentos, **¡voilà!** Finalmente, conseguí que `flashrom` detectara el chip y realizara la primera lectura.
 
 <p align="center">
-  <img src="pics/8.jpg" alt="volcado" width="55%">
+  <img src="pics/8.jpg" alt="volcado" width="75%">
 </p>
 
 Después de conseguir la primera lectura, extraje otras ocho copias del firmware para asegurarme de tener varias muestras con las que trabajar.
@@ -1191,7 +1191,7 @@ cerrados tras el arranque con la SD.
 ### 9.1 Resultado
 
 <p align="center">
-  <img src="pics/10.jpg" alt="hola" width="55%">
+  <img src="pics/10.jpg" alt="hola" width="85%">
 </p>
 
 
